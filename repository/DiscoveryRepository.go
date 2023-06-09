@@ -1,6 +1,11 @@
 package repository
 
-import "github.com/johannes-kuhfuss/aoip-svc/config"
+import (
+	"fmt"
+
+	"github.com/johannes-kuhfuss/aoip-svc/config"
+	"github.com/johannes-kuhfuss/services_utils/logger"
+)
 
 type DiscoveryRepositoryMem struct {
 	Cfg *config.AppConfig
@@ -18,5 +23,7 @@ func NewDiscoveryRepository(cfg *config.AppConfig) DiscoveryRepositoryMem {
 
 func (r DiscoveryRepositoryMem) Store(svc, data string) (err error) {
 	services[svc] = data
+	logger.Info(fmt.Sprintf("Stored %v with value %v", svc, data))
+	logger.Info(fmt.Sprintf("Length of list: %v", len(services)))
 	return nil
 }

@@ -13,7 +13,7 @@ type DiscoveryService interface {
 
 type DefaultDiscoveryService struct {
 	Cfg  *config.AppConfig
-	Repo *domain.DiscoveryRepository
+	repo domain.DiscoveryRepository
 }
 
 var (
@@ -25,7 +25,7 @@ func NewDiscoveryService(cfg *config.AppConfig, repo domain.DiscoveryRepository)
 	entriesCh = make(chan *mdns.ServiceEntry, 8)
 	return DefaultDiscoveryService{
 		Cfg:  cfg,
-		Repo: &repo,
+		repo: repo,
 	}
 }
 
@@ -40,8 +40,8 @@ func (s DefaultDiscoveryService) Discover() {
 }
 
 func (s DefaultDiscoveryService) storeEntries() {
-	/*
-		for entry := range entriesCh {
+	for entry := range entriesCh {
+		/*
 			logger.Info("*** Begin Info ***")
 			logger.Info(fmt.Sprintf("entry.Addr: %v", entry.Addr))
 			logger.Info(fmt.Sprintf("entry.AddrV4: %v", entry.AddrV4))
@@ -53,5 +53,7 @@ func (s DefaultDiscoveryService) storeEntries() {
 			logger.Info(fmt.Sprintf("entry.Port: %v", entry.Port))
 			logger.Info(fmt.Sprintf("entry.TTL: %v", entry.TTL))
 			logger.Info("*** End Info ***")
-		}*/
+		*/
+		s.repo.Store(entry.Name, entry.Info)
+	}
 }

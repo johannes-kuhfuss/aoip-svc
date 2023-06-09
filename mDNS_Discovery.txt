@@ -1,0 +1,95 @@
+{"level":"info","time":"2023-06-09T14:30:47+02:00","caller":"service/DiscoveryService.go:31","msg":"Starting mDNS discovery..."}
+{"level":"info","time":"2023-06-09T14:32:01+02:00","caller":"service/DiscoveryService.go:42","msg":"Got new entry: &{AVIOUSBC-54299d._netaudio-dbc._udp.local. AVIOUSBC-54299d.local. 192.168.180.23 <nil> 4455  [] 120 192.168.180.23 true true}"}
+{"level":"info","time":"2023-06-09T14:32:02+02:00","caller":"service/DiscoveryService.go:42","msg":"Got new entry: &{Right\\@AVIOUSBC-54299d._netaudio-chan._udp.local. AVIOUSBC-54299d.local. 192.168.180.23 <nil> 4455 txtvers=2|dbcp1=0x1102|dbcp=0x1004|id=2|rate=48000|en=24|pcm=3 4|enc=24|latency_ns=1000000|fpp=16,16|nchan=2|default [txtvers=2 dbcp1=0x1102 dbcp=0x1004 id=2 rate=48000 en=24 pcm=3 4 enc=24 latency_ns=1000000 fpp=16,16 nchan=2 default] 120 192.168.180.23 true true}"}
+{"level":"info","time":"2023-06-09T14:32:03+02:00","caller":"service/DiscoveryService.go:42","msg":"Got new entry: &{Right\\@AVIOUSBC-54299d._netaudio-chan._udp.local. AVIOUSBC-54299d.local. 192.168.180.23 <nil> 4455 txtvers=2|dbcp1=0x1102|dbcp=0x1004|id=2|rate=48000|en=24|pcm=3 4|enc=24|latency_ns=1000000|fpp=16,16|nchan=2|default [txtvers=2 dbcp1=0x1102 dbcp=0x1004 id=2 rate=48000 en=24 pcm=3 4 enc=24 latency_ns=1000000 fpp=16,16 nchan=2 default] 120 192.168.180.23 true true}"}
+{"level":"info","time":"2023-06-09T14:32:05+02:00","caller":"service/DiscoveryService.go:42","msg":"Got new entry: &{Right\\@AVIOUSBC-54299d._netaudio-chan._udp.local. AVIOUSBC-54299d.local. 192.168.180.23 <nil> 4455 txtvers=2|dbcp1=0x1102|dbcp=0x1004|id=2|rate=48000|en=24|pcm=3 4|enc=24|latency_ns=1000000|fpp=16,16|nchan=2|default [txtvers=2 dbcp1=0x1102 dbcp=0x1004 id=2 rate=48000 en=24 pcm=3 4 enc=24 latency_ns=1000000 fpp=16,16 nchan=2 default] 120 192.168.180.23 true true}"}
+
+{"level":"info","time":"2023-06-09T14:37:12+02:00","caller":"service/DiscoveryService.go:31","msg":"Starting mDNS discovery..."}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: id=001dc1fffe54299d|process=0|cmcp_vers=1.2.0|cmcp_min=1.0.0|server_vers=4.0.2|channels=0x6000004d|mf=Audinate|model=DIOUSBC||"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [id=001dc1fffe54299d process=0 cmcp_vers=1.2.0 cmcp_min=1.0.0 server_vers=4.0.2 channels=0x6000004d mf=Audinate model=DIOUSBC  ]"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: AVIOUSBC-54299d._netaudio-cmc._udp.local."}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 8800"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: txtvers=2|dbcp1=0x1102|dbcp=0x1004|id=2|rate=48000|en=24|pcm=3 4|enc=24|latency_ns=1000000|fpp=16,16|nchan=2|default"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [txtvers=2 dbcp1=0x1102 dbcp=0x1004 id=2 rate=48000 en=24 pcm=3 4 enc=24 latency_ns=1000000 fpp=16,16 nchan=2 default]"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: Right\\@AVIOUSBC-54299d._netaudio-chan._udp.local."}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 4455"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: id=001dc1fffe54299d|process=0|cmcp_vers=1.2.0|cmcp_min=1.0.0|server_vers=4.0.2|channels=0x6000004d|mf=Audinate|model=DIOUSBC||"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [id=001dc1fffe54299d process=0 cmcp_vers=1.2.0 cmcp_min=1.0.0 server_vers=4.0.2 channels=0x6000004d mf=Audinate model=DIOUSBC  ]"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: AVIOUSBC-54299d._netaudio-cmc._udp.local."}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 8800"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:37:25+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: txtvers=2|dbcp1=0x1102|dbcp=0x1004|id=2|rate=48000|en=24|pcm=3 4|enc=24|latency_ns=1000000|fpp=16,16|nchan=2|default"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [txtvers=2 dbcp1=0x1102 dbcp=0x1004 id=2 rate=48000 en=24 pcm=3 4 enc=24 latency_ns=1000000 fpp=16,16 nchan=2 default]"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: Right\\@AVIOUSBC-54299d._netaudio-chan._udp.local."}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 4455"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: id=001dc1fffe54299d|process=0|cmcp_vers=1.2.0|cmcp_min=1.0.0|server_vers=4.0.2|channels=0x6000004d|mf=Audinate|model=DIOUSBC||"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [id=001dc1fffe54299d process=0 cmcp_vers=1.2.0 cmcp_min=1.0.0 server_vers=4.0.2 channels=0x6000004d mf=Audinate model=DIOUSBC  ]"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: AVIOUSBC-54299d._netaudio-cmc._udp.local."}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 8800"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:37:26+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: txtvers=2|dbcp1=0x1102|dbcp=0x1004|id=2|rate=48000|en=24|pcm=3 4|enc=24|latency_ns=1000000|fpp=16,16|nchan=2|default"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [txtvers=2 dbcp1=0x1102 dbcp=0x1004 id=2 rate=48000 en=24 pcm=3 4 enc=24 latency_ns=1000000 fpp=16,16 nchan=2 default]"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: Right\\@AVIOUSBC-54299d._netaudio-chan._udp.local."}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 4455"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:37:27+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: id=001dc1fffe54299d|process=0|cmcp_vers=1.2.0|cmcp_min=1.0.0|server_vers=4.0.2|channels=0x6000004d|mf=Audinate|model=DIOUSBC||"}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [id=001dc1fffe54299d process=0 cmcp_vers=1.2.0 cmcp_min=1.0.0 server_vers=4.0.2 channels=0x6000004d mf=Audinate model=DIOUSBC  ]"}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: AVIOUSBC-54299d._netaudio-cmc._udp.local."}
+{"level":"info","time":"2023-06-09T14:37:28+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 8800"}
+{"level":"info","time":"2023-06-09T14:37:40+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:37:40+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:41","msg":"*** Begin Info ***"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:42","msg":"entry.Addr: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:43","msg":"entry.AddrV4: 192.168.180.23"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:44","msg":"entry.AddrV6: <nil>"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:45","msg":"entry.Host: AVIOUSBC-54299d.local."}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:46","msg":"entry.Info: id=001dc1fffe54299d|process=0|cmcp_vers=1.2.0|cmcp_min=1.0.0|server_vers=4.0.2|channels=0x6000004d|mf=Audinate|model=DIOUSBC||"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:47","msg":"entry.InfoFields: [id=001dc1fffe54299d process=0 cmcp_vers=1.2.0 cmcp_min=1.0.0 server_vers=4.0.2 channels=0x6000004d mf=Audinate model=DIOUSBC  ]"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:48","msg":"entry.Name: AVIOUSBC-54299d._netaudio-cmc._udp.local."}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:49","msg":"entry.Port: 8800"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:50","msg":"entry.TTL: 120"}
+{"level":"info","time":"2023-06-09T14:39:24+02:00","caller":"service/DiscoveryService.go:51","msg":"*** End Info ***"}

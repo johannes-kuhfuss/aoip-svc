@@ -25,10 +25,14 @@ type AppConfig struct {
 		Mode         string `envconfig:"GIN_MODE" default:"release"`
 		TemplatePath string `envconfig:"TEMPLATE_PATH" default:"./templates/"`
 	}
+	MdnsDiscovery struct {
+		IntervalSec int `envconfig:"MDNS_DISCOVER_INTERVAL_SEC" default:"5"`
+	}
 	RunTime struct {
 		Router     *gin.Engine
 		ListenAddr string
 		StartDate  time.Time
+		MdnsQuery  bool
 	}
 }
 

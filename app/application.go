@@ -15,18 +15,21 @@ import (
 	"github.com/gin-gonic/gin"
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
+	"github.com/johannes-kuhfuss/aoip-svc/domain"
+	"github.com/johannes-kuhfuss/aoip-svc/repository"
 	"github.com/johannes-kuhfuss/aoip-svc/service"
 	"github.com/johannes-kuhfuss/services_utils/date"
 	"github.com/johannes-kuhfuss/services_utils/logger"
 )
 
 var (
-	cfg         config.AppConfig
-	server      http.Server
-	appEnd      chan os.Signal
-	ctx         context.Context
-	cancel      context.CancelFunc
-	discoverSvc service.DiscoveryService
+	cfg          config.AppConfig
+	server       http.Server
+	appEnd       chan os.Signal
+	ctx          context.Context
+	cancel       context.CancelFunc
+	discoverSvc  service.DefaultDiscoveryService
+	discoverRepo domain.DiscoveryRepository
 )
 
 func StartApp() {
@@ -111,7 +114,8 @@ func initServer() {
 }
 
 func wireApp() {
-	discoverSvc = service.NewDiscoveryService(&cfg)
+	discoverRepo = repository.NewDiscoveryRepository(&cfg)
+	discoverSvc = service.NewDiscoveryService(&cfg, discoverRepo)
 }
 
 func mapUrls() {

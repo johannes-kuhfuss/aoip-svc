@@ -1,0 +1,4035 @@
+{
+  "DHD-7080-19a5dc.local.": {
+    "channels": {
+      "receivers": {
+        "1": {
+          "name": "Rx01"
+        },
+        "2": {
+          "name": "Rx02"
+        },
+        "3": {
+          "name": "Rx03"
+        },
+        "4": {
+          "name": "Rx04"
+        },
+        "5": {
+          "name": "Rx05"
+        },
+        "6": {
+          "name": "Rx06"
+        },
+        "7": {
+          "name": "Rx07"
+        },
+        "8": {
+          "name": "Rx08"
+        },
+        "9": {
+          "name": "Rx09"
+        },
+        "10": {
+          "name": "Rx10"
+        },
+        "11": {
+          "name": "Rx11"
+        },
+        "12": {
+          "name": "Rx12"
+        },
+        "13": {
+          "name": "Rx13"
+        },
+        "14": {
+          "name": "Rx14"
+        },
+        "15": {
+          "name": "Rx15"
+        },
+        "16": {
+          "name": "Rx16"
+        },
+        "17": {
+          "name": "Rx17"
+        },
+        "18": {
+          "name": "Rx18"
+        },
+        "19": {
+          "name": "Rx19"
+        },
+        "20": {
+          "name": "Rx20"
+        },
+        "21": {
+          "name": "Rx21"
+        },
+        "22": {
+          "name": "Rx22"
+        },
+        "23": {
+          "name": "Rx23"
+        },
+        "24": {
+          "name": "Rx24"
+        },
+        "25": {
+          "name": "Rx25"
+        },
+        "26": {
+          "name": "Rx26"
+        },
+        "27": {
+          "name": "Rx27"
+        },
+        "28": {
+          "name": "Rx28"
+        },
+        "29": {
+          "name": "Rx29"
+        },
+        "30": {
+          "name": "Rx30"
+        },
+        "31": {
+          "name": "Rx31"
+        },
+        "32": {
+          "name": "Rx32"
+        },
+        "33": {
+          "name": "Rx33"
+        },
+        "34": {
+          "name": "Rx34"
+        },
+        "35": {
+          "name": "Rx35"
+        },
+        "36": {
+          "name": "Rx36"
+        },
+        "37": {
+          "name": "Rx37"
+        },
+        "38": {
+          "name": "Rx38"
+        },
+        "39": {
+          "name": "Rx39"
+        },
+        "40": {
+          "name": "Rx40"
+        },
+        "41": {
+          "name": "Rx41"
+        },
+        "42": {
+          "name": "Rx42"
+        },
+        "43": {
+          "name": "Rx43"
+        },
+        "44": {
+          "name": "Rx44"
+        },
+        "45": {
+          "name": "Rx45"
+        },
+        "46": {
+          "name": "Rx46"
+        },
+        "47": {
+          "name": "Rx47"
+        },
+        "48": {
+          "name": "Rx48"
+        },
+        "49": {
+          "name": "Rx49"
+        },
+        "50": {
+          "name": "Rx50"
+        },
+        "51": {
+          "name": "Rx51"
+        },
+        "52": {
+          "name": "Rx52"
+        },
+        "53": {
+          "name": "Rx53"
+        },
+        "54": {
+          "name": "Rx54"
+        },
+        "55": {
+          "name": "Rx55"
+        },
+        "56": {
+          "name": "Rx56"
+        },
+        "57": {
+          "name": "Rx57"
+        },
+        "58": {
+          "name": "Rx58"
+        },
+        "59": {
+          "name": "Rx59"
+        },
+        "60": {
+          "name": "Rx60"
+        },
+        "61": {
+          "name": "Rx61"
+        },
+        "62": {
+          "name": "Rx62"
+        },
+        "63": {
+          "name": "Rx63"
+        },
+        "64": {
+          "name": "Rx64"
+        }
+      },
+      "transmitters": {
+        "1": {
+          "name": "Tx01"
+        },
+        "2": {
+          "name": "Tx02"
+        },
+        "3": {
+          "name": "Tx03"
+        },
+        "4": {
+          "name": "Tx04"
+        },
+        "5": {
+          "name": "Tx05"
+        },
+        "6": {
+          "name": "Tx06"
+        },
+        "7": {
+          "name": "Tx07"
+        },
+        "8": {
+          "name": "Tx08"
+        },
+        "9": {
+          "name": "Tx09"
+        },
+        "10": {
+          "name": "Tx10"
+        },
+        "11": {
+          "name": "Tx11"
+        },
+        "12": {
+          "name": "Tx12"
+        },
+        "13": {
+          "name": "Tx13"
+        },
+        "14": {
+          "name": "Tx14"
+        },
+        "15": {
+          "name": "Tx15"
+        },
+        "16": {
+          "name": "Tx16"
+        },
+        "17": {
+          "name": "Tx17"
+        },
+        "18": {
+          "name": "Tx18"
+        },
+        "19": {
+          "name": "Tx19"
+        },
+        "20": {
+          "name": "Tx20"
+        },
+        "21": {
+          "name": "Tx21"
+        },
+        "22": {
+          "name": "Tx22"
+        },
+        "23": {
+          "name": "Tx23"
+        },
+        "24": {
+          "name": "Tx24"
+        },
+        "25": {
+          "name": "Tx25"
+        },
+        "26": {
+          "name": "Tx26"
+        },
+        "27": {
+          "name": "Tx27"
+        },
+        "28": {
+          "name": "Tx28"
+        },
+        "29": {
+          "name": "Tx29"
+        },
+        "30": {
+          "name": "Tx30"
+        },
+        "31": {
+          "name": "Tx31"
+        },
+        "32": {
+          "name": "Tx32"
+        },
+        "33": {
+          "name": "Tx33"
+        },
+        "34": {
+          "name": "Tx34"
+        },
+        "35": {
+          "name": "Tx35"
+        },
+        "36": {
+          "name": "Tx36"
+        },
+        "37": {
+          "name": "Tx37"
+        },
+        "38": {
+          "name": "Tx38"
+        },
+        "39": {
+          "name": "Tx39"
+        },
+        "40": {
+          "name": "Tx40"
+        },
+        "41": {
+          "name": "Tx41"
+        },
+        "42": {
+          "name": "Tx42"
+        },
+        "43": {
+          "name": "Tx43"
+        },
+        "44": {
+          "name": "Tx44"
+        },
+        "45": {
+          "name": "Tx45"
+        },
+        "46": {
+          "name": "Tx46"
+        },
+        "47": {
+          "name": "Tx47"
+        },
+        "48": {
+          "name": "Tx48"
+        },
+        "49": {
+          "name": "Tx49"
+        },
+        "50": {
+          "name": "Tx50"
+        },
+        "51": {
+          "name": "Tx51"
+        },
+        "52": {
+          "name": "Tx52"
+        },
+        "53": {
+          "name": "Tx53"
+        },
+        "54": {
+          "name": "Tx54"
+        },
+        "55": {
+          "name": "Tx55"
+        },
+        "56": {
+          "name": "Tx56"
+        },
+        "57": {
+          "name": "Tx57"
+        },
+        "58": {
+          "name": "Tx58"
+        },
+        "59": {
+          "name": "Tx59"
+        },
+        "60": {
+          "name": "Tx60"
+        },
+        "61": {
+          "name": "Tx61"
+        },
+        "62": {
+          "name": "Tx62"
+        },
+        "63": {
+          "name": "Tx63"
+        },
+        "64": {
+          "name": "Tx64"
+        }
+      }
+    },
+    "ipv4": "192.168.60.197",
+    "latency": 1000000,
+    "mac_address": "001dc119a5dc0000",
+    "model_id": "_00000000000708",
+    "name": "DHD-7080-StudioGruen",
+    "sample_rate": 48000,
+    "server_name": "DHD-7080-19a5dc.local.",
+    "services": {
+      "DHD-7080-StudioGruen._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "DHD-7080-StudioGruen._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.8.1",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.2",
+          "router_info": "Audinate DCM",
+          "mf": "DHD",
+          "model": "_00000000000708",
+          "router_debug": "Build :800"
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "DHD-7080-StudioGruen._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "DHD-7080-StudioGruen._netaudio-cmc._udp.local.",
+        "port": 8800,
+        "properties": {
+          "id": "001dc119a5dc0000",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.3",
+          "channels": "0x6000017f",
+          "mf": "DHD",
+          "model": "_00000000000708"
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-cmc._udp.local."
+      },
+      "DHD-7080-StudioGruen._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "DHD-7080-StudioGruen._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-dbc._udp.local."
+      },
+      "Tx01@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx01@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "1",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx02@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx02@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "2",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx03@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx03@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "3",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx04@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx04@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "4",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx05@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx05@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "5",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx06@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx06@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "6",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx07@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx07@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "7",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx08@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx08@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "8",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx09@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx09@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "9",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx10@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx10@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "10",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx11@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx11@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "11",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx12@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx12@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "12",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx13@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx13@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "13",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx14@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx14@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "14",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx15@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx15@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "15",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx16@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx16@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "16",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx17@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx17@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "17",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx18@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx18@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "18",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx19@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx19@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "19",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx20@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx20@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "20",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx21@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx21@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "21",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx22@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx22@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "22",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx23@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx23@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "23",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx24@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx24@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "24",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx25@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx25@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "25",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx26@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx26@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "26",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx27@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx27@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "27",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx28@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx28@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "28",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx29@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx29@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "29",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx30@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx30@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "30",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx31@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx31@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "31",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx32@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx32@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "32",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx33@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx33@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "33",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx34@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx34@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "34",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx35@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx35@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "35",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx36@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx36@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "36",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx37@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx37@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "37",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx38@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx38@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "38",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx39@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx39@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "39",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx40@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx40@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "40",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx41@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx41@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "41",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx42@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx42@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "42",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx43@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx43@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "43",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx44@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx44@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "44",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx45@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx45@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "45",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx46@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx46@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "46",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx47@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx47@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "47",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx48@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx48@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "48",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx49@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx49@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "49",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx50@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx50@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "50",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx51@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx51@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "51",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx52@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx52@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "52",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx53@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx53@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "53",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx54@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx54@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "54",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx55@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx55@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "55",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx56@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx56@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "56",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx57@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx57@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "57",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx58@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx58@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "58",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx59@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx59@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "59",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx60@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx60@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "60",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx61@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx61@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "61",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx62@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx62@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "62",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx63@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx63@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "63",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "Tx64@DHD-7080-StudioGruen._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.197",
+        "name": "Tx64@DHD-7080-StudioGruen._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1102",
+          "dbcp": "0x1004",
+          "id": "64",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "nred": "1",
+          "latency_ns": "1000000",
+          "fpp": "16,2",
+          "nchan": "64",
+          "default": null
+        },
+        "server_name": "DHD-7080-19a5dc.local.",
+        "type": "_netaudio-chan._udp.local."
+      }
+    },
+    "subscriptions": [
+      {
+        "rx_channel": "Rx01",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "01",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx02",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "02",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx03",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "03",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx04",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "04",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx05",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "05",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx06",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "06",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx07",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "07",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx08",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "08",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx09",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "09",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx10",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "10",
+        "tx_device": "StudioGruen-PC",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx11",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "01",
+        "tx_device": "mAirList-silenceIn",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx12",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "02",
+        "tx_device": "mAirList-silenceIn",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "Rx13",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "CH1",
+        "tx_device": "Seminarraum-In",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx14",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "CH2",
+        "tx_device": "Seminarraum-In",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx15",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx15",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx16",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx16",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx17",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx17",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx18",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx18",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx19",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx19",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx20",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx20",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx21",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx21",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx22",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx22",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx23",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx23",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx24",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx24",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx25",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx25",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx26",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx26",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx27",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx27",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx28",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx28",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx29",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx29",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx30",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx30",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx31",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx31",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx32",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx32",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx33",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx33",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx34",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx34",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx35",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx35",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx36",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx36",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx37",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx37",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx38",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx38",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx39",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx39",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx40",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx40",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx41",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx41",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx42",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx42",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx43",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx43",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx44",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx44",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx45",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx45",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx46",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx46",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx47",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx47",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx48",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx48",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx49",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx49",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx50",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx50",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx51",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx51",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx52",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx52",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx53",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx53",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx54",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx54",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx55",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx55",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx56",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx56",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx57",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx57",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx58",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx58",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx59",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx59",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx60",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx60",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx61",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx61",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx62",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx62",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx63",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx63",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "Rx64",
+        "rx_device": "DHD-7080-StudioGruen",
+        "tx_channel": "Tx64",
+        "tx_device": "zzIB-7080-0b51e8",
+        "status_text": "Subscription unresolved"
+      }
+    ]
+  },
+  "AVIOAO2-514857.local.": {
+    "channels": {
+      "receivers": {
+        "1": {
+          "name": "CH1"
+        },
+        "2": {
+          "name": "CH2"
+        }
+      },
+      "transmitters": {}
+    },
+    "ipv4": "192.168.60.102",
+    "mac_address": "001dc1fffe514857",
+    "model_id": "DAO2",
+    "name": "Silence-Out",
+    "sample_rate": 48000,
+    "server_name": "AVIOAO2-514857.local.",
+    "services": {
+      "Silence-Out._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.102",
+        "name": "Silence-Out._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.7.41",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.0.2",
+          "router_info": "DAO2",
+          "mf": "Audinate",
+          "model": "DAO2"
+        },
+        "server_name": "AVIOAO2-514857.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "Silence-Out._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.102",
+        "name": "Silence-Out._netaudio-cmc._udp.local.",
+        "port": 8800,
+        "properties": {
+          "id": "001dc1fffe514857",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.2",
+          "channels": "0x6000004d",
+          "mf": "Audinate",
+          "model": "DAO2"
+        },
+        "server_name": "AVIOAO2-514857.local.",
+        "type": "_netaudio-cmc._udp.local."
+      },
+      "Silence-Out._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.102",
+        "name": "Silence-Out._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "AVIOAO2-514857.local.",
+        "type": "_netaudio-dbc._udp.local."
+      }
+    },
+    "subscriptions": [
+      {
+        "rx_channel": "CH1",
+        "rx_device": "Silence-Out",
+        "tx_channel": "01",
+        "tx_device": "mAirList-silenceIn",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "CH2",
+        "rx_device": "Silence-Out",
+        "tx_channel": "02",
+        "tx_device": "mAirList-silenceIn",
+        "status_text": "Connected (Unicast)"
+      }
+    ]
+  },
+  "studio-w-2.local.": {
+    "channels": {
+      "receivers": {
+        "1": {
+          "name": "01"
+        },
+        "2": {
+          "name": "02"
+        },
+        "3": {
+          "name": "03"
+        },
+        "4": {
+          "name": "04"
+        },
+        "5": {
+          "name": "05"
+        },
+        "6": {
+          "name": "06"
+        },
+        "7": {
+          "name": "07"
+        },
+        "8": {
+          "name": "08"
+        },
+        "9": {
+          "name": "09"
+        },
+        "10": {
+          "name": "10"
+        },
+        "11": {
+          "name": "11"
+        },
+        "12": {
+          "name": "12"
+        },
+        "13": {
+          "name": "13"
+        },
+        "14": {
+          "name": "14"
+        },
+        "15": {
+          "name": "15"
+        },
+        "16": {
+          "name": "16"
+        }
+      },
+      "transmitters": {
+        "1": {
+          "name": "01"
+        },
+        "2": {
+          "name": "02"
+        },
+        "3": {
+          "name": "03"
+        },
+        "4": {
+          "name": "04"
+        },
+        "5": {
+          "name": "05"
+        },
+        "6": {
+          "name": "06"
+        },
+        "7": {
+          "name": "07"
+        },
+        "8": {
+          "name": "08"
+        },
+        "9": {
+          "name": "09"
+        },
+        "10": {
+          "name": "10"
+        },
+        "11": {
+          "name": "11"
+        },
+        "12": {
+          "name": "12"
+        },
+        "13": {
+          "name": "13"
+        },
+        "14": {
+          "name": "14"
+        },
+        "15": {
+          "name": "15"
+        },
+        "16": {
+          "name": "16"
+        }
+      }
+    },
+    "ipv4": "192.168.60.133",
+    "latency": 6000000,
+    "mac_address": "d05099fffe917bfa",
+    "model_id": "DvsWin",
+    "name": "StudioGelb-PC",
+    "sample_rate": 48000,
+    "server_name": "studio-w-2.local.",
+    "services": {
+      "StudioGelb-PC._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "StudioGelb-PC._netaudio-cmc._udp.local.",
+        "port": 38800,
+        "properties": {
+          "id": "d05099fffe917bfa",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.5",
+          "channels": "0x6000017f",
+          "mf": "Audinate",
+          "model": "DvsWin"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-cmc._udp.local."
+      },
+      "StudioGelb-PC._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "StudioGelb-PC._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.8.9",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.3.0",
+          "router_info": "Dante Virtual Soundcard for Windows",
+          "mf": "Audinate",
+          "model": "DvsWin",
+          "router_debug": "Build "
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "StudioGelb-PC._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "StudioGelb-PC._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-dbc._udp.local."
+      },
+      "01@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "01@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "1",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "02@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "02@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "2",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "03@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "03@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "3",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "04@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "04@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "4",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "05@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "05@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "5",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "06@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "06@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "6",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "07@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "07@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "7",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "08@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "08@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "8",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "09@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "09@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "9",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "10@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "10@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "10",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "11@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "11@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "11",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "12@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "12@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "12",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "13@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "13@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "13",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "14@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "14@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "14",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "15@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "15@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "15",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "16@StudioGelb-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.133",
+        "name": "16@StudioGelb-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "16",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "studio-w-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      }
+    },
+    "subscriptions": [
+      {
+        "rx_channel": "01",
+        "rx_device": "StudioGelb-PC",
+        "tx_channel": "CH1",
+        "tx_device": "Seminarraum-In",
+        "status_text": "Subscription unresolved"
+      },
+      {
+        "rx_channel": "02",
+        "rx_device": "StudioGelb-PC",
+        "tx_channel": "CH2",
+        "tx_device": "Seminarraum-In",
+        "status_text": "Subscription unresolved"
+      }
+    ]
+  },
+  "AVIOAO2-53a628.local.": {
+    "channels": {
+      "receivers": {
+        "1": {
+          "name": "CH1"
+        },
+        "2": {
+          "name": "CH2"
+        }
+      },
+      "transmitters": {}
+    },
+    "ipv4": "192.168.60.129",
+    "mac_address": "001dc1fffe53a628",
+    "model_id": "DAO2",
+    "name": "StudioGruen-Out",
+    "sample_rate": 48000,
+    "server_name": "AVIOAO2-53a628.local.",
+    "services": {
+      "StudioGruen-Out._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.129",
+        "name": "StudioGruen-Out._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.7.41",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.0.2",
+          "router_info": "DAO2",
+          "mf": "Audinate",
+          "model": "DAO2"
+        },
+        "server_name": "AVIOAO2-53a628.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "StudioGruen-Out._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.129",
+        "name": "StudioGruen-Out._netaudio-cmc._udp.local.",
+        "port": 8800,
+        "properties": {
+          "id": "001dc1fffe53a628",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.2",
+          "channels": "0x6000004d",
+          "mf": "Audinate",
+          "model": "DAO2"
+        },
+        "server_name": "AVIOAO2-53a628.local.",
+        "type": "_netaudio-cmc._udp.local."
+      },
+      "StudioGruen-Out._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.129",
+        "name": "StudioGruen-Out._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "AVIOAO2-53a628.local.",
+        "type": "_netaudio-dbc._udp.local."
+      }
+    },
+    "subscriptions": [
+      {
+        "rx_channel": "CH1",
+        "rx_device": "StudioGruen-Out",
+        "tx_channel": "Tx03",
+        "tx_device": "DHD-7080-StudioGruen",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "CH2",
+        "rx_device": "StudioGruen-Out",
+        "tx_channel": "Tx04",
+        "tx_device": "DHD-7080-StudioGruen",
+        "status_text": "Connected (Unicast)"
+      }
+    ]
+  },
+  "user-PC-2.local.": {
+    "channels": {
+      "receivers": {
+        "1": {
+          "name": "01"
+        },
+        "2": {
+          "name": "02"
+        },
+        "3": {
+          "name": "03"
+        },
+        "4": {
+          "name": "04"
+        },
+        "5": {
+          "name": "05"
+        },
+        "6": {
+          "name": "06"
+        },
+        "7": {
+          "name": "07"
+        },
+        "8": {
+          "name": "08"
+        },
+        "9": {
+          "name": "09"
+        },
+        "10": {
+          "name": "10"
+        },
+        "11": {
+          "name": "11"
+        },
+        "12": {
+          "name": "12"
+        },
+        "13": {
+          "name": "13"
+        },
+        "14": {
+          "name": "14"
+        },
+        "15": {
+          "name": "15"
+        },
+        "16": {
+          "name": "16"
+        }
+      },
+      "transmitters": {
+        "1": {
+          "name": "01"
+        },
+        "2": {
+          "name": "02"
+        },
+        "3": {
+          "name": "03"
+        },
+        "4": {
+          "name": "04"
+        },
+        "5": {
+          "name": "05"
+        },
+        "6": {
+          "name": "06"
+        },
+        "7": {
+          "name": "07"
+        },
+        "8": {
+          "name": "08"
+        },
+        "9": {
+          "name": "09"
+        },
+        "10": {
+          "name": "10"
+        },
+        "11": {
+          "name": "11"
+        },
+        "12": {
+          "name": "12"
+        },
+        "13": {
+          "name": "13"
+        },
+        "14": {
+          "name": "14"
+        },
+        "15": {
+          "name": "15"
+        },
+        "16": {
+          "name": "16"
+        }
+      }
+    },
+    "ipv4": "192.168.60.135",
+    "latency": 4000000,
+    "mac_address": "7085c2fffe4db212",
+    "name": "StudioGruen-PC",
+    "sample_rate": 48000,
+    "server_name": "user-PC-2.local.",
+    "services": {
+      "StudioGruen-PC._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "StudioGruen-PC._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.8.8",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.3",
+          "router_info": "Dante Virtual Soundcard for Windows",
+          "router_debug": "Build :800"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "StudioGruen-PC._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "StudioGruen-PC._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-dbc._udp.local."
+      },
+      "01@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "01@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "1",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "02@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "02@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "2",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "03@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "03@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "3",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "04@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "04@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "4",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "05@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "05@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "5",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "06@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "06@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "6",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "07@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "07@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "7",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "08@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "08@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "8",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "09@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "09@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "9",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "10@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "10@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "10",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "11@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "11@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "11",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "12@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "12@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "12",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "13@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "13@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "13",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "14@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "14@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "14",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "15@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "15@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "15",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "16@StudioGruen-PC._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "16@StudioGruen-PC._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "16",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "4000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "StudioGruen-PC._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.135",
+        "name": "StudioGruen-PC._netaudio-cmc._udp.local.",
+        "port": 38800,
+        "properties": {
+          "id": "7085c2fffe4db212",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.4",
+          "channels": "0x6000017f"
+        },
+        "server_name": "user-PC-2.local.",
+        "type": "_netaudio-cmc._udp.local."
+      }
+    },
+    "subscriptions": [
+      {
+        "rx_channel": "01",
+        "rx_device": "StudioGruen-PC",
+        "tx_channel": "Tx01",
+        "tx_device": "DHD-7080-StudioGruen",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "02",
+        "rx_device": "StudioGruen-PC",
+        "tx_channel": "Tx02",
+        "tx_device": "DHD-7080-StudioGruen",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "05",
+        "rx_device": "StudioGruen-PC",
+        "tx_channel": "Tx05",
+        "tx_device": "DHD-7080-StudioGruen",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "06",
+        "rx_device": "StudioGruen-PC",
+        "tx_channel": "Tx06",
+        "tx_device": "DHD-7080-StudioGruen",
+        "status_text": "Connected (Unicast)"
+      }
+    ]
+  },
+  "AVIOAI2-53afd1.local.": {
+    "channels": {
+      "receivers": {},
+      "transmitters": {
+        "1": {
+          "name": "CH1"
+        },
+        "2": {
+          "name": "CH2"
+        }
+      }
+    },
+    "ipv4": "192.168.60.138",
+    "mac_address": "001dc1fffe53afd1",
+    "model_id": "DAI2",
+    "name": "StudioRot-In",
+    "sample_rate": 48000,
+    "server_name": "AVIOAI2-53afd1.local.",
+    "services": {
+      "StudioRot-In._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.138",
+        "name": "StudioRot-In._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.7.41",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.0.2",
+          "router_info": "DAI2",
+          "mf": "Audinate",
+          "model": "DAI2"
+        },
+        "server_name": "AVIOAI2-53afd1.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "StudioRot-In._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.138",
+        "name": "StudioRot-In._netaudio-cmc._udp.local.",
+        "port": 8800,
+        "properties": {
+          "id": "001dc1fffe53afd1",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.2",
+          "channels": "0x6000004d",
+          "mf": "Audinate",
+          "model": "DAI2"
+        },
+        "server_name": "AVIOAI2-53afd1.local.",
+        "type": "_netaudio-cmc._udp.local."
+      },
+      "StudioRot-In._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.138",
+        "name": "StudioRot-In._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "AVIOAI2-53afd1.local.",
+        "type": "_netaudio-dbc._udp.local."
+      }
+    },
+    "subscriptions": []
+  },
+  "AVIOAO2-53a5e3.local.": {
+    "channels": {
+      "receivers": {
+        "1": {
+          "name": "CH1"
+        },
+        "2": {
+          "name": "CH2"
+        }
+      },
+      "transmitters": {}
+    },
+    "ipv4": "192.168.60.165",
+    "mac_address": "001dc1fffe53a5e3",
+    "model_id": "DAO2",
+    "name": "StudioRot-Out",
+    "sample_rate": 48000,
+    "server_name": "AVIOAO2-53a5e3.local.",
+    "services": {
+      "StudioRot-Out._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.165",
+        "name": "StudioRot-Out._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.7.41",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.0.2",
+          "router_info": "DAO2",
+          "mf": "Audinate",
+          "model": "DAO2"
+        },
+        "server_name": "AVIOAO2-53a5e3.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "StudioRot-Out._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.165",
+        "name": "StudioRot-Out._netaudio-cmc._udp.local.",
+        "port": 8800,
+        "properties": {
+          "id": "001dc1fffe53a5e3",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.2",
+          "channels": "0x6000004d",
+          "mf": "Audinate",
+          "model": "DAO2"
+        },
+        "server_name": "AVIOAO2-53a5e3.local.",
+        "type": "_netaudio-cmc._udp.local."
+      },
+      "StudioRot-Out._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.165",
+        "name": "StudioRot-Out._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "AVIOAO2-53a5e3.local.",
+        "type": "_netaudio-dbc._udp.local."
+      }
+    },
+    "subscriptions": [
+      {
+        "rx_channel": "CH1",
+        "rx_device": "StudioRot-Out",
+        "tx_channel": "CH1",
+        "tx_device": "StudioRot-In",
+        "status_text": "Connected (Unicast)"
+      },
+      {
+        "rx_channel": "CH2",
+        "rx_device": "StudioRot-Out",
+        "tx_channel": "CH2",
+        "tx_device": "StudioRot-In",
+        "status_text": "Connected (Unicast)"
+      }
+    ]
+  },
+  "mAirList-2.local.": {
+    "channels": {
+      "receivers": {
+        "1": {
+          "name": "01"
+        },
+        "2": {
+          "name": "02"
+        },
+        "3": {
+          "name": "03"
+        },
+        "4": {
+          "name": "04"
+        },
+        "5": {
+          "name": "05"
+        },
+        "6": {
+          "name": "06"
+        },
+        "7": {
+          "name": "07"
+        },
+        "8": {
+          "name": "08"
+        },
+        "9": {
+          "name": "09"
+        },
+        "10": {
+          "name": "10"
+        },
+        "11": {
+          "name": "11"
+        },
+        "12": {
+          "name": "12"
+        },
+        "13": {
+          "name": "13"
+        },
+        "14": {
+          "name": "14"
+        },
+        "15": {
+          "name": "15"
+        },
+        "16": {
+          "name": "16"
+        }
+      },
+      "transmitters": {
+        "1": {
+          "name": "01"
+        },
+        "2": {
+          "name": "02"
+        },
+        "3": {
+          "name": "03"
+        },
+        "4": {
+          "name": "04"
+        },
+        "5": {
+          "name": "05"
+        },
+        "6": {
+          "name": "06"
+        },
+        "7": {
+          "name": "07"
+        },
+        "8": {
+          "name": "08"
+        },
+        "9": {
+          "name": "09"
+        },
+        "10": {
+          "name": "10"
+        },
+        "11": {
+          "name": "11"
+        },
+        "12": {
+          "name": "12"
+        },
+        "13": {
+          "name": "13"
+        },
+        "14": {
+          "name": "14"
+        },
+        "15": {
+          "name": "15"
+        },
+        "16": {
+          "name": "16"
+        }
+      }
+    },
+    "ipv4": "192.168.60.166",
+    "latency": 6000000,
+    "mac_address": "1c6f65fffe597128",
+    "model_id": "DvsWin",
+    "name": "mAirList-silenceIn",
+    "sample_rate": 48000,
+    "server_name": "mAirList-2.local.",
+    "services": {
+      "mAirList-silenceIn._netaudio-arc._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "mAirList-silenceIn._netaudio-arc._udp.local.",
+        "port": 4440,
+        "properties": {
+          "arcp_vers": "2.8.9",
+          "arcp_min": "0.2.4",
+          "router_vers": "4.3.0",
+          "router_info": "Dante Virtual Soundcard for Windows",
+          "mf": "Audinate",
+          "model": "DvsWin",
+          "router_debug": "Build "
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-arc._udp.local."
+      },
+      "mAirList-silenceIn._netaudio-dbc._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "mAirList-silenceIn._netaudio-dbc._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-dbc._udp.local."
+      },
+      "01@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "01@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "1",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "02@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "02@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "2",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "03@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "03@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "3",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "04@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "04@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "05@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "05@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {},
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "06@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "06@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "6",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "07@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "07@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "7",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "08@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "08@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "8",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "09@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "09@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "9",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "10@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "10@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "10",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "11@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "11@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "11",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "12@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "12@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "12",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "13@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "13@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "13",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "14@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "14@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "14",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "15@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "15@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "15",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "16@mAirList-silenceIn._netaudio-chan._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "16@mAirList-silenceIn._netaudio-chan._udp.local.",
+        "port": 4455,
+        "properties": {
+          "txtvers": "2",
+          "dbcp1": "0x1200",
+          "id": "16",
+          "dbcp": "0x1004",
+          "rate": "48000",
+          "en": "24",
+          "pcm": "3 e",
+          "enc": "24",
+          "latency_ns": "6000000",
+          "fpp": "48,48",
+          "nchan": "8"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-chan._udp.local."
+      },
+      "mAirList-silenceIn._netaudio-cmc._udp.local.": {
+        "ipv4": "192.168.60.166",
+        "name": "mAirList-silenceIn._netaudio-cmc._udp.local.",
+        "port": 38800,
+        "properties": {
+          "id": "1c6f65fffe597128",
+          "process": "0",
+          "cmcp_vers": "1.2.0",
+          "cmcp_min": "1.0.0",
+          "server_vers": "4.0.5",
+          "channels": "0x6000017f",
+          "mf": "Audinate",
+          "model": "DvsWin"
+        },
+        "server_name": "mAirList-2.local.",
+        "type": "_netaudio-cmc._udp.local."
+      }
+    },
+    "subscriptions": []
+  }
+}

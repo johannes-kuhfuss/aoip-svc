@@ -139,6 +139,7 @@ func startServer() {
 }
 
 func startDeviceDiscovery() {
+	deviceSvc.Run()
 }
 
 func cleanUp() {

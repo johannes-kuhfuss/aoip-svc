@@ -3,6 +3,7 @@ package service
 import (
 	"encoding/json"
 	"io/ioutil"
+	"time"
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
 	"github.com/johannes-kuhfuss/aoip-svc/domain"
@@ -28,16 +29,21 @@ func NewDeviceService(cfg *config.AppConfig, repo domain.DeviceRepository) Defau
 }
 
 func (s DefaultDeviceService) Run() {
+	for s.Cfg.RunTime.RunDiscover == true {
+		s.Discover()
+		time.Sleep(time.Duration(s.Cfg.DeviceDiscovery.IntervalSec) * time.Second)
+	}
+}
+
+func (s DefaultDeviceService) Discover() {
 	var (
 		devices domain.Devices
 		rawData map[string]json.RawMessage
 		dev     domain.Device
 	)
-	sampleData, err := ioutil.ReadFile("./sample-data/coloRadio-dante-devices.json")
-	if err != nil {
-		logger.Error("Error reading sample file: ", err)
-	}
-	err = json.Unmarshal(sampleData, &rawData)
+	logger.Info("Start new discovery cycle...")
+	data, err := retrieveData()
+	err = json.Unmarshal(data, &rawData)
 	if err != nil {
 		logger.Error("Error converting output from netaudio: ", err)
 	}
@@ -56,4 +62,14 @@ func (s DefaultDeviceService) Run() {
 		devices = append(devices, dev)
 	}
 	s.Repo.Store(devices)
+	logger.Info("End of new discovery cycle.")
+}
+
+func retrieveData() ([]byte, error) {
+	data, err := ioutil.ReadFile("./sample-data/coloRadio-dante-devices.json")
+	if err != nil {
+		logger.Error("Error reading sample file: ", err)
+		return nil, err
+	}
+	return data, nil
 }

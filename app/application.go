@@ -142,6 +142,7 @@ func startServer() {
 }
 
 func startDeviceDiscovery() {
+	cfg.RunTime.RunDiscover = true
 	deviceSvc.Run()
 }
 

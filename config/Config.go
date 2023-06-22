@@ -29,9 +29,10 @@ type AppConfig struct {
 		IntervalSec int `envconfig:"DEVICE_DISCOVER_INTERVAL_SEC" default:"5"`
 	}
 	RunTime struct {
-		Router     *gin.Engine
-		ListenAddr string
-		StartDate  time.Time
+		Router      *gin.Engine
+		ListenAddr  string
+		StartDate   time.Time
+		RunDiscover bool
 	}
 }
 

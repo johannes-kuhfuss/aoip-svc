@@ -14,14 +14,16 @@ type DeviceService interface {
 }
 
 type DefaultDeviceService struct {
-	Cfg *config.AppConfig
+	Cfg  *config.AppConfig
+	Repo domain.DeviceRepository
 }
 
 var ()
 
-func NewDeviceService(cfg *config.AppConfig) DefaultDeviceService {
+func NewDeviceService(cfg *config.AppConfig, repo domain.DeviceRepository) DefaultDeviceService {
 	return DefaultDeviceService{
-		Cfg: cfg,
+		Cfg:  cfg,
+		Repo: repo,
 	}
 }
 
@@ -53,4 +55,5 @@ func (s DefaultDeviceService) Run() {
 		}
 		devices = append(devices, dev)
 	}
+	s.Repo.Store(devices)
 }

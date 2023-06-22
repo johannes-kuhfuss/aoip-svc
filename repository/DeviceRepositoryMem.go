@@ -17,7 +17,7 @@ type DeviceRepositoryMem struct {
 	DeviceList deviceList
 }
 
-func NewDeviceRepository(cfg *config.AppConfig) DeviceRepositoryMem {
+func NewDeviceRepositoryMem(cfg *config.AppConfig) DeviceRepositoryMem {
 	return DeviceRepositoryMem{
 		Cfg:        cfg,
 		DeviceList: deviceList{},

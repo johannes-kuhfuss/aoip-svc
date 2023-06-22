@@ -15,18 +15,20 @@ import (
 	"github.com/gin-gonic/gin"
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
+	"github.com/johannes-kuhfuss/aoip-svc/repository"
 	"github.com/johannes-kuhfuss/aoip-svc/service"
 	"github.com/johannes-kuhfuss/services_utils/date"
 	"github.com/johannes-kuhfuss/services_utils/logger"
 )
 
 var (
-	cfg       config.AppConfig
-	server    http.Server
-	appEnd    chan os.Signal
-	ctx       context.Context
-	cancel    context.CancelFunc
-	deviceSvc service.DefaultDeviceService
+	cfg        config.AppConfig
+	server     http.Server
+	appEnd     chan os.Signal
+	ctx        context.Context
+	cancel     context.CancelFunc
+	deviceSvc  service.DefaultDeviceService
+	deviceRepo repository.DeviceRepositoryMem
 )
 
 func StartApp() {
@@ -111,7 +113,8 @@ func initServer() {
 }
 
 func wireApp() {
-	deviceSvc = service.NewDeviceService(&cfg)
+	deviceRepo = repository.NewDeviceRepositoryMem(&cfg)
+	deviceSvc = service.NewDeviceService(&cfg, &deviceRepo)
 }
 
 func mapUrls() {

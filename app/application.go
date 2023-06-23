@@ -13,6 +13,9 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/go-sanitize/sanitize"
+	"github.com/microcosm-cc/bluemonday"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
 	"github.com/johannes-kuhfuss/aoip-svc/repository"
@@ -41,9 +44,11 @@ func StartApp() {
 	}
 	initRouter()
 	initServer()
+	initMetrics()
 	wireApp()
 	mapUrls()
 	RegisterForOsSignals()
+	createSanitizers()
 
 	go startDeviceDiscovery()
 
@@ -112,17 +117,41 @@ func initServer() {
 	}
 }
 
+func initMetrics() {
+	prometheusRegister()
+}
+
 func wireApp() {
 	deviceRepo = repository.NewDeviceRepositoryMem(&cfg)
 	deviceSvc = service.NewDeviceService(&cfg, &deviceRepo)
 }
 
 func mapUrls() {
+	api := cfg.RunTime.Router.Group("/devices", validateAuth(), prometheusMetrics())
+	{
+		api.GET("/", nil)
+		api.GET("/:device_id", nil)
+	}
+	ui := cfg.RunTime.Router.Group("/")
+	{
+		ui.GET("/about", nil)
+	}
+	cfg.RunTime.Router.GET("/metrics", gin.WrapH(promhttp.Handler()))
 }
 
 func RegisterForOsSignals() {
 	appEnd = make(chan os.Signal, 1)
 	signal.Notify(appEnd, os.Interrupt, syscall.SIGINT, syscall.SIGTERM)
+}
+
+func createSanitizers() {
+	sani, err := sanitize.New()
+	if err != nil {
+		logger.Error("Error creating sanitizer", err)
+		panic(err)
+	}
+	cfg.RunTime.Sani = sani
+	cfg.RunTime.BmPolicy = bluemonday.UGCPolicy()
 }
 
 func startServer() {

@@ -5,10 +5,12 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/go-sanitize/sanitize"
 	"github.com/johannes-kuhfuss/services_utils/api_error"
 	"github.com/johannes-kuhfuss/services_utils/logger"
 	"github.com/joho/godotenv"
 	"github.com/kelseyhightower/envconfig"
+	"github.com/microcosm-cc/bluemonday"
 )
 
 type AppConfig struct {
@@ -28,11 +30,17 @@ type AppConfig struct {
 	DeviceDiscovery struct {
 		IntervalSec int `envconfig:"DEVICE_DISCOVER_INTERVAL_SEC" default:"5"`
 	}
+	Misc struct {
+		MaxResultLimit int      `envconfig:"MAX_RESULT_LIMIT" default:"100"`
+		ApiKeys        []string `envconfig:"API_KEYS"`
+	}
 	RunTime struct {
 		Router      *gin.Engine
 		ListenAddr  string
 		StartDate   time.Time
 		RunDiscover bool
+		Sani        *sanitize.Sanitizer
+		BmPolicy    *bluemonday.Policy
 	}
 }
 

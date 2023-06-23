@@ -18,6 +18,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
+	"github.com/johannes-kuhfuss/aoip-svc/handler"
 	"github.com/johannes-kuhfuss/aoip-svc/repository"
 	"github.com/johannes-kuhfuss/aoip-svc/service"
 	"github.com/johannes-kuhfuss/services_utils/date"
@@ -25,13 +26,14 @@ import (
 )
 
 var (
-	cfg        config.AppConfig
-	server     http.Server
-	appEnd     chan os.Signal
-	ctx        context.Context
-	cancel     context.CancelFunc
-	deviceSvc  service.DefaultDeviceService
-	deviceRepo repository.DeviceRepositoryMem
+	cfg           config.AppConfig
+	server        http.Server
+	appEnd        chan os.Signal
+	ctx           context.Context
+	cancel        context.CancelFunc
+	deviceRepo    repository.DeviceRepositoryMem
+	deviceSvc     service.DefaultDeviceService
+	deviceHandler handler.DeviceHandler
 )
 
 func StartApp() {
@@ -47,7 +49,7 @@ func StartApp() {
 	initMetrics()
 	wireApp()
 	mapUrls()
-	RegisterForOsSignals()
+	registerForOsSignals()
 	createSanitizers()
 
 	go startDeviceDiscovery()
@@ -73,6 +75,7 @@ func initRouter() {
 	router := gin.New()
 	router.Use(gin.Logger())
 	router.Use(gin.Recovery())
+	router.Use(AddRequestId())
 	router.SetTrustedProxies(nil)
 	globPath := filepath.Join(cfg.Gin.TemplatePath, "*.tmpl")
 	router.LoadHTMLGlob(globPath)
@@ -124,12 +127,13 @@ func initMetrics() {
 func wireApp() {
 	deviceRepo = repository.NewDeviceRepositoryMem(&cfg)
 	deviceSvc = service.NewDeviceService(&cfg, &deviceRepo)
+	deviceHandler = handler.NewDeviceHandler(&cfg, deviceSvc)
 }
 
 func mapUrls() {
 	api := cfg.RunTime.Router.Group("/devices", validateAuth(), prometheusMetrics())
 	{
-		api.GET("/", nil)
+		api.GET("/", deviceHandler.GetAllDevices)
 		api.GET("/:device_id", nil)
 	}
 	ui := cfg.RunTime.Router.Group("/")
@@ -139,7 +143,7 @@ func mapUrls() {
 	cfg.RunTime.Router.GET("/metrics", gin.WrapH(promhttp.Handler()))
 }
 
-func RegisterForOsSignals() {
+func registerForOsSignals() {
 	appEnd = make(chan os.Signal, 1)
 	signal.Notify(appEnd, os.Interrupt, syscall.SIGINT, syscall.SIGTERM)
 }
@@ -180,6 +184,7 @@ func cleanUp() {
 	ctx, cancel = context.WithTimeout(context.Background(), shutdownTime)
 	defer func() {
 		logger.Info("Cleaning up")
+		cfg.RunTime.RunDiscover = false
 		logger.Info("Done cleaning up")
 		cancel()
 	}()

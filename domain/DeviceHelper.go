@@ -28,7 +28,7 @@ func (d Device) FromRawDevice(rd RawDevice) (Device, error) {
 func channelsFromRaw(rawData map[string]json.RawMessage) (Channels, error) {
 	var (
 		channel   Channel
-		channels  []Channel
+		channels  Channels
 		chanData  map[string]json.RawMessage
 		chanName  channelName
 		convError bool = false

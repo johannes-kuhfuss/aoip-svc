@@ -7,19 +7,19 @@ import (
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
 	"github.com/johannes-kuhfuss/aoip-svc/domain"
+	"github.com/johannes-kuhfuss/services_utils/api_error"
 	"github.com/johannes-kuhfuss/services_utils/logger"
 )
 
 type DeviceService interface {
 	Run()
+	GetAllDevices() (*domain.Devices, int, api_error.ApiErr)
 }
 
 type DefaultDeviceService struct {
 	Cfg  *config.AppConfig
 	Repo domain.DeviceRepository
 }
-
-var ()
 
 func NewDeviceService(cfg *config.AppConfig, repo domain.DeviceRepository) DefaultDeviceService {
 	return DefaultDeviceService{
@@ -72,4 +72,12 @@ func retrieveData() ([]byte, error) {
 		return nil, err
 	}
 	return data, nil
+}
+
+func (s DefaultDeviceService) GetAllDevices() (*domain.Devices, int, api_error.ApiErr) {
+	devices, totalCount, err := s.Repo.FindAll()
+	if err != nil {
+		return nil, 0, err
+	}
+	return &devices, totalCount, nil
 }

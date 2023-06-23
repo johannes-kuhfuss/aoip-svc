@@ -53,6 +53,7 @@ func StartApp() {
 	createSanitizers()
 
 	go startDeviceDiscovery()
+	go startServer()
 
 	<-appEnd
 	cleanUp()

@@ -41,7 +41,7 @@ func (s DefaultDeviceService) Discover() {
 		rawData map[string]json.RawMessage
 		dev     domain.Device
 	)
-	logger.Info("Start new discovery cycle...")
+	//logger.Info("Start new discovery cycle...")
 	data, err := retrieveData()
 	err = json.Unmarshal(data, &rawData)
 	if err != nil {
@@ -62,7 +62,7 @@ func (s DefaultDeviceService) Discover() {
 		devices = append(devices, dev)
 	}
 	s.Repo.Store(devices)
-	logger.Info("End of new discovery cycle.")
+	//logger.Info("End of new discovery cycle.")
 }
 
 func retrieveData() ([]byte, error) {

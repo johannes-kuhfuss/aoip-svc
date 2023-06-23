@@ -34,7 +34,7 @@ func (drm *DeviceRepositoryMem) Store(list domain.Devices) {
 func (drm *DeviceRepositoryMem) FindAll() (domain.Devices, int, api_error.ApiErr) {
 	drm.DeviceList.mu.RLock()
 	devices := drm.DeviceList.list
-	drm.DeviceList.mu.Unlock()
+	drm.DeviceList.mu.RUnlock()
 	count := len(devices)
 	return devices, count, nil
 }

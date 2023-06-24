@@ -7,13 +7,14 @@ import (
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
 	"github.com/johannes-kuhfuss/aoip-svc/domain"
+	"github.com/johannes-kuhfuss/aoip-svc/dto"
 	"github.com/johannes-kuhfuss/services_utils/api_error"
 	"github.com/johannes-kuhfuss/services_utils/logger"
 )
 
 type DeviceService interface {
 	Run()
-	GetAllDevices() (*domain.Devices, int, api_error.ApiErr)
+	GetAllDevices(*dto.SortAndFilterRequest) (*domain.Devices, int, api_error.ApiErr)
 }
 
 type DefaultDeviceService struct {
@@ -41,7 +42,6 @@ func (s DefaultDeviceService) Discover() {
 		rawData map[string]json.RawMessage
 		dev     domain.Device
 	)
-	//logger.Info("Start new discovery cycle...")
 	data, err := retrieveData()
 	err = json.Unmarshal(data, &rawData)
 	if err != nil {
@@ -62,7 +62,6 @@ func (s DefaultDeviceService) Discover() {
 		devices = append(devices, dev)
 	}
 	s.Repo.Store(devices)
-	//logger.Info("End of new discovery cycle.")
 }
 
 func retrieveData() ([]byte, error) {
@@ -74,7 +73,7 @@ func retrieveData() ([]byte, error) {
 	return data, nil
 }
 
-func (s DefaultDeviceService) GetAllDevices() (*domain.Devices, int, api_error.ApiErr) {
+func (s DefaultDeviceService) GetAllDevices(safReq *dto.SortAndFilterRequest) (*domain.Devices, int, api_error.ApiErr) {
 	devices, totalCount, err := s.Repo.FindAll()
 	if err != nil {
 		return nil, 0, err

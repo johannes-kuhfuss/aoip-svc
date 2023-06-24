@@ -23,7 +23,14 @@ func NewDeviceHandler(cfg *config.AppConfig, svc service.DeviceService) DeviceHa
 }
 
 func (dh *DeviceHandler) GetAllDevices(c *gin.Context) {
-	jobs, totalCount, err := dh.Service.GetAllDevices()
+	safParams := c.Request.URL.Query()
+	safQuery, err := dh.validateSortAndFilterRequest(safParams, dh.Cfg.Misc.MaxResultLimit)
+	if err != nil {
+		logger.Error("Error parsing query parameters", err)
+		c.JSON(err.StatusCode(), err)
+		return
+	}
+	jobs, totalCount, err := dh.Service.GetAllDevices(safQuery)
 	if err != nil {
 		logger.Error("Service error while getting all jobs", err)
 		c.JSON(err.StatusCode(), err)

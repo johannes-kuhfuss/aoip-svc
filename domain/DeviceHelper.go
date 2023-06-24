@@ -3,6 +3,7 @@ package domain
 import (
 	"encoding/json"
 	"errors"
+	"reflect"
 	"strconv"
 
 	"github.com/johannes-kuhfuss/services_utils/logger"
@@ -83,4 +84,13 @@ func servicesFromRaw(rawData map[string]json.RawMessage) (Services, error) {
 		return services, err
 	}
 	return services, nil
+}
+
+func GetDeviceFieldsAsStrings() []string {
+	var fields []string
+	val := reflect.ValueOf(Device{})
+	for i := 0; i < val.Type().NumField(); i++ {
+		fields = append(fields, string(val.Type().Field(i).Tag.Get("json")))
+	}
+	return fields
 }

@@ -1,14 +1,12 @@
 package repository
 
 import (
-	"fmt"
 	"sync"
 
 	"github.com/johannes-kuhfuss/aoip-svc/config"
 	"github.com/johannes-kuhfuss/aoip-svc/domain"
 	"github.com/johannes-kuhfuss/aoip-svc/dto"
 	"github.com/johannes-kuhfuss/services_utils/api_error"
-	"github.com/johannes-kuhfuss/services_utils/logger"
 )
 
 type deviceList struct {
@@ -36,10 +34,27 @@ func (drm *DeviceRepositoryMem) Store(list domain.Devices) {
 
 func (drm *DeviceRepositoryMem) FindAll(safReq *dto.SortAndFilterRequest) (domain.Devices, int, api_error.ApiErr) {
 	drm.DeviceList.mu.RLock()
-	allDevices := drm.DeviceList.list
+	devices := drm.DeviceList.list
 	drm.DeviceList.mu.RUnlock()
-	// sort and filter
-	logger.Info(fmt.Sprintf("saf: %#v", safReq))
-	count := len(allDevices)
-	return allDevices, count, nil
+	devices = filter(devices, safReq)
+	devices = sort(devices, safReq)
+	devices = limit(devices, safReq)
+	count := len(devices)
+	return devices, count, nil
+}
+
+func filter(devs domain.Devices, safReq *dto.SortAndFilterRequest) domain.Devices {
+	return devs
+}
+
+func sort(devs domain.Devices, safReq *dto.SortAndFilterRequest) domain.Devices {
+	return devs
+}
+
+func limit(devs domain.Devices, safReq *dto.SortAndFilterRequest) domain.Devices {
+	if len(devs) > safReq.Limit {
+		return devs[0:safReq.Limit]
+	} else {
+		return devs
+	}
 }

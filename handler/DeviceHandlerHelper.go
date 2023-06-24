@@ -40,7 +40,7 @@ func (dh DeviceHandler) extractSort(safParams url.Values) (*dto.SortBy, api_erro
 	sortBy = dh.Cfg.RunTime.BmPolicy.Sanitize(sortBy)
 	if len(sortBy) == 0 {
 		sort := dto.SortBy{
-			Field: "id",
+			Field: "name",
 			Dir:   "DESC",
 		}
 		return &sort, nil

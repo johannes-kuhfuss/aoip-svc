@@ -74,7 +74,7 @@ func retrieveData() ([]byte, error) {
 }
 
 func (s DefaultDeviceService) GetAllDevices(safReq *dto.SortAndFilterRequest) (*domain.Devices, int, api_error.ApiErr) {
-	devices, totalCount, err := s.Repo.FindAll()
+	devices, totalCount, err := s.Repo.FindAll(safReq)
 	if err != nil {
 		return nil, 0, err
 	}

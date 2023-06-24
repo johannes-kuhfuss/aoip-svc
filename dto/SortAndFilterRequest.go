@@ -18,9 +18,4 @@ type SortAndFilterRequest struct {
 	Offset  int
 }
 
-type FilterSql struct {
-	SqlOperator  string
-	ValueReplace string
-}
-
 var Operators = []string{"eq", "neq", "ct", "sw", "ew", "gt", "lt", "gte", "lte"}
